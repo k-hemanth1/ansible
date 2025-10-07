@@ -1,1 +1,3 @@
-helloo world
+!#bin/bash
+
+echo "hello world"
