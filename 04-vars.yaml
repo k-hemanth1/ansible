@@ -7,5 +7,5 @@
     Trainer: Hemanth kumar
   tasks:
   - name: print the corse info
-  ansible.builtin.debug:
-    msg: "Course Name is:  {{COURSE }},Duratioin:{{DURATION}}, Trainer: {{Trainer}}"
+    ansible.builtin.debug:
+      msg: "Course Name is:  {{COURSE }},Duratioin:{{DURATION}}, Trainer: {{Trainer}}"
