@@ -6,5 +6,5 @@
   tasks:
   - name: check number is less than 10 or not
     ansible.builtin.debug:
-      msg: "Give number {{ number }} is less than 10
+      msg: "Give number {{ number }} is less than 10"
     whwn: number < 10
