@@ -5,7 +5,7 @@
     NAME: from play level
   vars_files:
   - course.yaml
-  vars-_prompt:
+  vars_prompt:
   - name: NAME
     prompt: what is your NAME?
     private: true
