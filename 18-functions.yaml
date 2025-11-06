@@ -23,7 +23,8 @@
 
   - name: convert list into map
     ansible.builtin.debug:
-      msg: "tag map: {{ listTags | item2dict }}"
+      msg: "tag map: {{ listTags | items2dict }}"
+
 
   - name: read yaml and take it into variable
     ansible.builtin.set_fact:
